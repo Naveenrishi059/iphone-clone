@@ -1,0 +1,317 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+:root{
+    --text-color:rgba(255,255,255, .8);
+    --bg-color:rgba(0,0,0, .8);
+    --text-heading:#0071E3;
+    --text-heading:#1d1d1f;
+}
+#nav{
+    border: 2px solid black;
+    height: 50px;
+    background-color: var(--text-heading);
+    z-index: -111111;
+    
+    
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height:inherit;
+    width: 65%;
+    margin: auto;
+    /* position: fixed; */
+    
+    background-color: #000;
+    
+}
+#sub-nav ol{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+#main{
+    border: 2px solid;
+    height: 620px;
+    background-image: url("../i-phone/image/15pro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#new{
+    position: absolute;
+    top: 120px;
+    color: white;
+    left: 520px;
+    line-height: 60px;
+}
+#new h1{
+    font-size: 55px;
+}
+#new h3{
+    font-size: 30px;
+    position: relative;
+    right: 35px;
+}
+#learn{
+    font-size: 30px;
+    position: relative;
+    left: 595px;
+    bottom: 430px;
+    color: var(--text-color);
+    fill: var(--text-color);
+
+}
+#white{
+    border: 2px solid;
+    height: 650px;
+    background-image: url("../i-phone/image/white\ phone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+#white-font{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left: 460px;
+    bottom: 530px;
+}
+#white-font h3{
+    position: relative;
+    right: 90px;
+    font-weight: 200;
+    font-size: 25px;
+    
+}
+#ultra2{
+    /* border: 2px solid; */
+    height: 550px;
+    width: 50%;
+    background-image: url("./image/watch.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 60px;
+}
+#mac{
+    
+    /* border: 2px solid; */
+    height: 550px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    bottom: 610px;
+    background-image: url("./image/mac.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#clock{
+    align-items:center;
+    position: relative;
+    left: 220px;
+    top: 40px;
+}
+#clock h5{
+    font-size: 24px;
+    position: relative;
+    right: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+#tab{
+    position: relative;
+    left: 35%;
+    top: 40px;
+}
+#tab h4{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#tab h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    right: 14px;
+    
+}
+#letter{
+    position: relative;
+    left: 12px;
+    top: 1px;
+}
+#iPad1{
+    border: 0.001px solid;
+    width: 50%;
+    height: 550px;
+    position: relative;
+    bottom: 550px;
+
+}
+#airdops1{
+    /* border: 2px solid; */
+    width: 50%;
+    height: 550px;
+    position: relative;
+    bottom: 1100px;
+    left: 50%;
+    background-color: #000;
+}
+#iPad1{
+    background-image: url("../i-phone/image/IPad.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size:350px;
+    height: 550px;
+    text-align: center;
+    position: relative;
+    
+    
+   
+}
+#iPad h4{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 53px;
+    position: relative;
+     bottom: 30px;
+     right: 8px;
+}
+#iPad h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 4px;
+    position: relative;
+    bottom: 35px;
+}
+#iPad span{
+    position: relative;
+    bottom: 35px;
+}
+#airdops1{
+    background-image: url("../i-phone/image/AirDopes.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 550px;
+    color: var(--text-color);
+    fill: var(--text-color);
+    text-align: center;
+    
+
+}
+#airdops h4{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    position: relative;
+    top: 35px;
+    
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+#airdops h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    position: relative;
+    top: 38px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#airdops span{
+    position: relative;
+    top:42px ;
+
+}
+#card{
+    /* border: 2px solid; */
+    width: 50%;
+    height: 600px;
+    position: relative;
+    bottom: 1100px;
+}
+#card{
+    background-image: url("../i-phone/image/Card.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+
+#trade{
+    /* border: 2px solid; */
+    width: 50%;
+    height: 600px;
+    position: relative;
+    bottom: 1700px;
+    left: 50%;
+    background-image: url("../i-phone/image/Trade.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#mart{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#get{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#card1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+#trap{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+#credit{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: 0.016em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#trade1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+
+
